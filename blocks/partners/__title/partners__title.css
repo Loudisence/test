@@ -1,0 +1,22 @@
+.partners__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 160%;
+  text-transform: uppercase;
+  color: #121920;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .partners__title {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .partners__title {
+    font-size: 28px;
+  }
+}

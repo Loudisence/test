@@ -1,0 +1,19 @@
+.header__profile-photo {
+  display: flex;
+  background: url(../../../images/photo.png);
+  margin: 20px 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .header__profile-photo {
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    background: no-repeat url(../../../images/photo_mobile.svg);
+  }
+}

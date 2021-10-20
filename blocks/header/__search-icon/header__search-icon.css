@@ -1,0 +1,12 @@
+.header__search-icon {
+  display: flex;
+  margin: 8px 5px 8px 10px;
+  width: 24px;
+  height: 24px;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .header__search-icon {
+    margin-left: 0;
+  }
+}

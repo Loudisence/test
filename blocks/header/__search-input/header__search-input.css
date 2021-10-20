@@ -1,0 +1,21 @@
+.header__search-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+.header__search-input::placeholder {
+  color: #bbc4d6;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .header__search-input {
+    max-height: 20px;
+    padding-top: 10px;
+  }
+}

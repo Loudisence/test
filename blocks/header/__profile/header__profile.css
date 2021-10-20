@@ -1,0 +1,13 @@
+.header__profile {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  border-left: 1px solid #ebebf1;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .header__profile {
+    margin: 16px 0;
+    border-left: none;
+  }
+}

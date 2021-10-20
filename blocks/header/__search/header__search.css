@@ -1,0 +1,22 @@
+.header__search {
+  display: flex;
+  margin: 20px 40px;
+  width: 899px;
+  border: 1px solid #ebebf1;
+  border-radius: 5px;
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .header__search {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .header__search {
+    order: 3;
+    margin: 0;
+    margin-bottom: -7px;
+    border: none;
+  }
+}

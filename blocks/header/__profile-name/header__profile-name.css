@@ -1,0 +1,15 @@
+.header__profile-name {
+  display: flex;
+  margin-left: 19px;
+  margin-right: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #768298;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .header__profile-name {
+    display: none;
+  }
+}
